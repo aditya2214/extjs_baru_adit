@@ -15,5 +15,8 @@ Ext.define('MyApp.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
+    },
+    onReadClicked:function() {
+        Ext.getStore('personnel').load();
     }
 });

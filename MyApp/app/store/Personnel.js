@@ -2,7 +2,8 @@ Ext.define('MyApp.store.Personnel', {
     extend: 'Ext.data.Store',
 
     alias: 'store.personnel',
-    autoLoad:true,
+    storeId:'personnel',
+    // autoLoad:true,
     model: 'MyApp.model.Personnel',
 
     proxy: {

@@ -14,6 +14,14 @@ Ext.define('MyApp.view.main.List', {
     store: {
         type: 'personnel'
     },
+    bind:'{personnel}',
+    viewModel:{
+        stores:{
+            personnel:{
+                type:'personnel'
+            }
+        }
+    },
 
     columns: [{ 
         text: 'id',

@@ -24,6 +24,22 @@ Ext.define('MyApp.view.main.Main', {
     tabBarPosition: 'bottom',
 
     items: [
+        {
+            docked:'top',
+            xtype:'toolbar',
+            items:[
+                {
+                    xtype:'button',
+                    text:'Read',
+                    ui:'action',
+                    scope:this,
+                    listeners:{
+                        tap:'onReadClicked'
+                    }
+                }
+            ]
+
+        },
         // TODO - Replace the content of this view to suit the needs of your application.
         {
             title: 'Home',
