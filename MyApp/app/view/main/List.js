@@ -31,6 +31,13 @@ Ext.define('MyApp.view.main.List', {
             userCls: 'bold'
         }
     },{ 
+        text: 'nama',
+        dataIndex: 'nama',
+        width: 100,
+        cell: {
+            userCls: 'bold'
+        }
+    },{ 
         text: 'birthplace',
         dataIndex: 'birthplace',
         width: 100,
