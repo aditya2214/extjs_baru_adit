@@ -9,7 +9,7 @@ Ext.define('MyApp.store.Personnel', {
     proxy: {
         type: 'jsonp',
         api:{
-            read:"http://localhost/belajar_extjs/adit/ReadEmployess.php"
+            read:"http://localhost/extjs_baru_adit/adit/ReadEmployess.php"
         },
         reader: {
             type: 'json',
